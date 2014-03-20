@@ -1,18 +1,17 @@
-puts "Welcome to Guess The Number!"
-secret_number = rand(101)
+puts "Welcome to Guess The Country!"
+countries = ["Canada", "Denmark", "Germany", "Isle of Man", "Namibia", "Qatar", "South Africa",  "United Kingdom","United States", "South Korea", "North Korea", "China", "Japan"]
+random_country = countries.sample
 
-puts "Guess a number between 0 and 100:"
-guess = gets.chomp.to_i
+puts "Guess a country"
+guess = gets.chomp.to_s
 
-until guess == secret_number
-  puts "HAHAHA YOU FAIL! NOW TRY AGAIN!!!!"
-  guess = gets.chomp.to_i
+until guess == random_count  guess = gets.chomp.to_s
 end
 
-puts "CONGRATULATIONS YOU A WINNA!"
+puts "CONGRATULATIONS YOU A WINNER"
 
 
 
 
 
-
+ 
